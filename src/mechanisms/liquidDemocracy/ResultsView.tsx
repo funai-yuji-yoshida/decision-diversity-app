@@ -28,7 +28,6 @@ export default function ResultsView() {
         const aggregation = aggregateResults(resolutionMap);
 
         // チャート用のデータ
-        const total = aggregation.agree + aggregation.disagree + aggregation.neutral + aggregation.circular + aggregation.unresolved;
         const maxCount = Math.max(aggregation.agree, aggregation.disagree, aggregation.neutral, aggregation.circular, aggregation.unresolved, 1);
 
         return (

@@ -1,4 +1,4 @@
-import type { Ballot, Person, ResolvedStance, ResolutionResult } from "./types";
+import type { Ballot, Person, ResolutionResult } from "./types";
 
 /**
  * トピックに対する全員の投票を解決する
